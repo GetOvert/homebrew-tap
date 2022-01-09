@@ -3,7 +3,7 @@ cask "openstore" do
 
   version "0.1.0"
 
-  url "https://github.com/GetOpenStore/OpenStore/releases/download/#{version}/OpenStore-darwin-#{arch}-#{version}.zip",
+  url "https://github.com/GetOpenStore/OpenStore/releases/download/v#{version}/OpenStore-darwin-#{arch}-#{version}.zip",
       verified: "https://github.com/GetOpenStore/OpenStore"
   if Hardware::CPU.intel?
     sha256 "e1ffb2d28da9e6bbad567ec100af91c2dd3c487ee8c368cfc40c1103c4238576"

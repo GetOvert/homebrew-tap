@@ -6,9 +6,9 @@ cask "openstore" do
   url "https://github.com/GetOpenStore/OpenStore/releases/download/v#{version}/OpenStore-darwin-#{arch}-#{version}.zip",
       verified: "https://github.com/GetOpenStore/OpenStore"
   if Hardware::CPU.intel?
-    sha256 "9b408867d9005f9ff8d553d9b7e82e5a9833d41dd70e357273abe06adbdcb0e0"
+    sha256 "bfdd66fd157eab70b69f72795115824c965936c774571324bb28d7f338c77b5f"
   else
-    sha256 "8abd92ac1ee47b78b8e69f12fec784cc2adcfbb2b0a18cf82b907b8cebc946f8"
+    sha256 "2ae897df0fe34e8b6112e489d2749521bdf24fb48adb7135b038c2f3cc4f73fa"
   end
 
   name "OpenStore"

@@ -12,7 +12,7 @@ Install [Homebrew](https://brew.sh).
 
 Run the following Terminal command:
 
-    brew install --no-quarantine getopenstore/tap/openstore
+    brew install getopenstore/tap/openstore
 
 ### Option 2
 
@@ -22,7 +22,7 @@ Add this repository to your local tap list:
 
 Then run:
 
-    brew install --no-quarantine openstore
+    brew install openstore
 
 ## Update or uninstall OpenStore
 
@@ -30,7 +30,7 @@ You can use OpenStore to update or uninstall OpenStore ;)
 
 If you'd prefer to use the command line, this should update it:
 
-    brew upgrade --no-quarantine openstore
+    brew upgrade openstore
 
 This should uninstall it:
 

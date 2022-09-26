@@ -26,6 +26,7 @@ cask "openstore" do
     "~/Library/Application Support/OpenStore",
     "~/Library/Caches/OpenStore_v1",
     "~/Library/Caches/OpenStore_v2",
+    "~/Library/Caches/OpenStore_v3",
     "~/Library/Preferences/app.getopenstore.OpenStore.plist",
   ]
 end

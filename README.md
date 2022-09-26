@@ -4,25 +4,16 @@ This is the official Homebrew tap repository for [OpenStore](https://github.com/
 
 ## Install OpenStore
 
-### Prerequisites
+1. Install [Homebrew](https://brew.sh) if you haven't yet.
 
-Install [Homebrew](https://brew.sh).
+2. Run the following Terminal commands:
 
-### Option 1
+  ```
+  brew tap homebrew/cask
+  brew install getopenstore/tap/openstore
+  open -a OpenStore
+  ```
 
-Run the following Terminal command:
-
-    brew install getopenstore/tap/openstore
-
-### Option 2
-
-Add this repository to your local tap list:
-
-    brew tap getopenstore/tap
-
-Then run:
-
-    brew install openstore
 
 ## Update or uninstall OpenStore
 

@@ -1,14 +1,14 @@
 cask "openstore" do
   arch = Hardware::CPU.intel? ? "x64" : "arm64"
 
-  version "0.1.7"
+  version "0.2.0"
 
   url "https://github.com/GetOpenStore/OpenStore/releases/download/v#{version}/OpenStore-darwin-#{arch}-#{version}.zip",
       verified: "https://github.com/GetOpenStore/OpenStore"
   if Hardware::CPU.intel?
-    sha256 "92400cdaf8b9d1d9b93004416ea3bb0f0f7a8698a05405411243bf7edff479fc"
+    sha256 "287f1e6b0218019117aad38f97639912c9cb9306c67028198ca8d9a47aee400d"
   else
-    sha256 "edd900617db90f7b69065fdaa9942bd63c62a988c17945ae9869afa569d7a6b2"
+    sha256 "231fd5e2dcb10fa3a9cf7a35d845b69dbfdbc7445e16ebee8420feaf33953e21"
   end
 
   name "OpenStore"

@@ -1,8 +1,8 @@
-# OpenStore Homebrew tap
+# Overt Homebrew tap
 
-This is the official Homebrew tap repository for [OpenStore](https://github.com/GetOpenStore/OpenStore), a GUI client for Homebrew marketed as an “open app store”.
+This is the official Homebrew tap repository for [Overt](https://github.com/GetOvert/Overt), a GUI client for Homebrew marketed as an “open app store”.
 
-## Install OpenStore
+## Install Overt
 
 1. Install [Homebrew](https://brew.sh) if you haven't yet.
 
@@ -10,23 +10,23 @@ This is the official Homebrew tap repository for [OpenStore](https://github.com/
 
   ```
   brew tap homebrew/cask
-  brew install getopenstore/tap/openstore
-  open -a OpenStore
+  brew install getovert/tap/overt
+  open -a Overt
   ```
 
 
-## Update or uninstall OpenStore
+## Update or uninstall Overt
 
-You can use OpenStore to update or uninstall OpenStore ;)
+You can use Overt to update or uninstall Overt ;)
 
 If you'd prefer to use the command line, this should update it:
 
-    brew upgrade openstore
+    brew upgrade overt
 
 This should uninstall it:
 
-    brew uninstall openstore
+    brew uninstall overt
 
 Or, to also remove caches and user preferences:
 
-    brew uninstall --zap openstore
+    brew uninstall --zap overt

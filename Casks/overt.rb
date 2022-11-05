@@ -1,14 +1,14 @@
 cask "overt" do
   arch = Hardware::CPU.intel? ? "x64" : "arm64"
 
-  version "0.3.4"
+  version "0.4.0"
 
   url "https://github.com/GetOvert/Overt/releases/download/v#{version}/Overt-darwin-#{arch}-#{version}.zip",
       verified: "https://github.com/GetOvert/Overt"
   if Hardware::CPU.intel?
-    sha256 "c82a6e9f73dd0faf54e267d70275dbcc2d02f5a669a02c7eeffa41d7e934e7dc"
+    sha256 "b9c6cd29b468dd741ef725a3479f74e6383e5a5c68195ba9f79809f5d30a0e2d"
   else
-    sha256 "a984dc587debea2d414e0cb3f2cbc933f3ec4c91152d1ced758450d177783405"
+    sha256 "8dbfd13f1f4ce89e78c2c5ba13102df41c88bf6c81d183ac34fa92c98d08d14f"
   end
 
   name "Overt"

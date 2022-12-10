@@ -21,6 +21,7 @@ cask "overt" do
   zap trash: [
     "~/Library/Application Support/Overt",
     "~/Library/Application Support/OpenStore",
+    "~/Library/Caches/Overt_v5",
     "~/Library/Caches/Overt_v4",
     "~/Library/Caches/OpenStore_v3",
     "~/Library/Caches/OpenStore_v2",

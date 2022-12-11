@@ -2,7 +2,7 @@
 
 ## This tap is deprecated
 
-There are no plans to continue updating this with tap new versions of Overt. Going forward, please use the package in the official `homebrew/cask` repository:
+There are no plans to continue updating this tap with new versions of Overt. Going forward, please use the package in the official `homebrew/cask` repository:
 
     brew install overt
 

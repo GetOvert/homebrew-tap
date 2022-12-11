@@ -1,5 +1,15 @@
 # Overt Homebrew tap
 
+## This tap is deprecated
+
+There are no plans to continue updating this with tap new versions of Overt. Going forward, please use the package in the official `homebrew/cask` repository:
+
+    brew install overt
+
+The original README is kept below for reference.
+
+---
+
 This is the official Homebrew tap repository for [Overt](https://github.com/GetOvert/Overt), a GUI client for Homebrew marketed as an “open app store”.
 
 ## Install Overt
